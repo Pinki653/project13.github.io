@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+   height: 500px;
+   width: 500px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.box{
+    background-image: url("https://m.media-amazon.com/images/I/41mWz2aRrTL._SY695_.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+}
+button{
+    font-size: 30px;
+  
+    border: none;
+   
+}
+@media (max-width: 768px){
+    body{
+        height: 100vh;
+    }
+     .container{
+        width: 373px;
+        border: none;
+     }
+     button{
+        background-color: white;
+     }
+}
